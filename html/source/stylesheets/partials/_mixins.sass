@@ -1,0 +1,12 @@
+// Font Smoothing
+@mixin font-smoothing($value: antialiased)
+  -webkit-font-smoothing: $value
+  font-smoothing: $value
+
+// Selection colors
+$prefixes: ("-webkit-","-moz-", "-o-", "")
+@mixin selection($color, $background)
+  @each $prefix in $prefixes
+    ::#{$prefix}selection
+      color: $color
+      background: $background

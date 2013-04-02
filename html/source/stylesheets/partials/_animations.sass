@@ -1,0 +1,28 @@
++keyframes(intro)
+  0%
+    background-color: $white
+  100%
+    background: rgba(#000, .1)
+    
++keyframes(boxes)
+  0%
+    +transform(translate3d(-20px, 0, 0))
+    +opacity(0)
+  40%
+    +transform(translate3d(-10px, 0, 0))
+    +opacity(0)
+  100%
+    +transform(translate3d(0, 0, 0))
+    +opacity(1)
+    
++keyframes(showMenu)
+  0%
+    +transform(translate3d(0, -200px, 0))
+  100%
+    +transform(translate3d(0, 0, 0))
+    
++keyframes(openSidebar)
+  0%
+    +transform(translate3d(-70px, 0, 0))
+  100%
+    +transform(translate3d(0, 0, 0))

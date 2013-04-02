@@ -1,0 +1,156 @@
+#header-wrapper.wrapper
+  .5grid-layout
+    .row
+      .12u
+        // Header
+        #header
+          // Logo
+          #logo
+            %h1
+              %a.mobileUI-site-name{:href => "#"} Camilo's
+            %span.byline Salón de Belleza
+
+// Intro
+#intro-wrapper.wrapper.wrapper-style1
+  .title El Salon
+  .5grid-layout
+    .row
+      .12u
+        %section#intro
+          %p.style1 Este es nuestro concepto, la manera que pensamos y creemos en la peluqueria.
+          %p.style2
+            Todos los diferentes tipos de cortes
+            %br.mobileUI-blank
+            acuerdo al perfil del cliente.
+          %p.style3
+            No existen dos personas iguales, así como tampoco dos rostros, cuerpos o personalidades idénticas. Esto hace extremadamente difícil aplicar fundamentos y reglas fijas cuando existe tal diversidad.
+          /
+            <p class="style3">Mauris tellus lacus, tincidunt eget mattis at, laoreet vel velit.
+            Aliquam diam ante, aliquet sit amet vulputate lorem at placerat at nisl.
+            Maecenas et gravida ligula sed lacus euismod tincidunt nullam eget justo orci.</p>
+
+// Concept
+.wrapper.wrapper-style2
+  .title Concepto
+  .5grid-layout
+    .row
+      .12u
+        #main
+          // Image
+          %a.image.image-featured{:href => "http://fav.me/d5pjw3g"}
+            %img{:alt => "", :src => "images/pic01.jpg"}/
+          // Features
+          %section#features
+            %header.style1
+              %h2 Dolor consequat feugiat amet veroeros
+              %p.byline Feugiat dolor nullam orci pretium phasellus justo
+            .feature-list
+              .5grid
+                .row
+                  .6u
+                    %section
+                      %h3.icon.icon-comment Mattis velit diam vulputate
+                      %p Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.
+                  .6u
+                    %section
+                      %h3.icon.icon-refresh Lorem ipsum dolor sit veroeros
+                      %p Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.
+                .row
+                  .6u
+                    %section
+                      %h3.icon.icon-picture Pretium phasellus justo lorem
+                      %p Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.
+                  .6u
+                    %section
+                      %h3.icon.icon-cog Tempus sed pretium orci
+                      %p Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.
+                .row
+                  .6u
+                    %section
+                      %h3.icon.icon-wrench Aliquam consequat et feugiat
+                      %p Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.
+                  .6u
+                    %section
+                      %h3.icon.icon-check Dolore laoreet aliquam mattis
+                      %p Eget mattis at, laoreet vel et velit aliquam diam ante, aliquet sit amet vulputate. Eget mattis at, laoreet vel velit lorem.
+            %ul.actions.actions-centered
+              %li
+                %a.button.button-style3.button-big{:href => "#"} Contactar
+              %li
+                %a.button.button-style2.button-big{:href => "#"} Mas info
+
+// Footer
+#footer-wrapper.wrapper
+  .title Contacto
+  .5grid-layout
+    .row
+      .12u
+        #footer
+          %header.style1
+            %h2 Ipsum sapien elementum portitor?
+            %p.byline
+              Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.
+              %br
+              Nam pharetra laoreet imperdiet volutpat etiam consequat feugiat.
+          %hr
+          .5grid
+            .row
+              .6u
+                // Contact Form
+                %section.footer-one
+                  %form{:action => "#", :method => "post"}
+                    .5grid
+                      .row
+                        .6u
+                          %input#contact-name.text{:name => "name", :placeholder => "Nombre", :type => "text"}
+                        .6u
+                          %input#contact-email.text{:name => "name", :placeholder => "Correo Electronico", :type => "text"}
+                      .row
+                        .12u
+                          %textarea#contact-message{:name => "message", :placeholder => "Mensaje"}
+                      .row
+                        .12u
+                          %ul.actions
+                            %li
+                              %input.button.button-style3{:type => "submit", :value => "Enviar"}
+                            %li
+                              %input.button.button-style2{:type => "reset", :value => "Borrar"}
+                / /Contact Form
+              .6u
+                / Contacts
+                %section.footer-two
+                  .feature-list.feature-list-small
+                    .5grid
+                      .row
+                        .6u
+                          %section
+                            %h3.icon.icon-home Direccion
+                            %p
+                              Moreno 5681
+                              %br
+                              Rosario, Santa Fe, 2000
+                              %br
+                              Mar-Sab de 9 a 18hs.
+                        .6u
+                          %section
+                            %h3.icon.icon-comment Social
+                            %p
+                              %a{:href => "#"} facebook.com/camilos
+                      .row
+                        .6u
+                          %section
+                            %h3.icon.icon-envelope Email
+                            %p
+                              %a{:href => "#"} cecilia@camilos.com.ar
+                        .6u
+                          %section
+                            %h3.icon.icon-phone Telefonos
+                            %p
+                              156 772 294
+                              %br
+                              464 6615
+          %hr
+        //Footer
+        #copyright
+          %span
+            © Camilo's - Salon de Belleza de Cecilia Lomo
