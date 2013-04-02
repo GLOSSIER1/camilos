@@ -1,4 +1,6 @@
 .DS_Store
 .bundle/
 .sass-cache/
+PSDs/
+_PSDs/
 camilos.tmproj
